@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+}
+.main {
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.heading {
+  margin: 15px;
+}
+
+.fname,
+.lname,
+.email,
+.contact {
+  margin: 10px 0 10px 0;
+}
+
+.gender {
+  margin: 20px 0 10px 0;
+}
+
+.city {
+  margin: 20px 0 10px 0;
+}
+
+.submit {
+  margin: 20px 0 10px 50px;
+}
+
+.sbtbtn,
+.rstbtn {
+  height: 30px;
+  width: 70px;
+}
+
+.fnamebox,
+.lnamebox,
+.emailbox,
+.contbox {
+  height: 25px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-color: black;
+  padding-left: 3px;
+}
+
+#city {
+  width: 100px;
+  height: 30px;
+}
+
+.date {
+  margin: 20px 0 10px 0;
+}
+
+.regdate {
+  width: 125px;
+  height: 27x;
+}
+
+.file {
+  margin: 20px 0 10px 0;
+}

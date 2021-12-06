@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reg.css" />
+    <title>Register Form</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <h2 class="heading">Registration Form</h2>
+      <form
+        name="regform"
+        method="post"
+        onsubmit="return validate()"
+      >
+        <p class="fname">
+          First Name <br />
+          <input
+            class="fnamebox"
+            type="text"
+            name="fnamebox"
+            placeholder="Enter Your First Name"
+          />
+        </p>
+        <p class="lname">
+          Last Name <br />
+          <input
+            class="lnamebox"
+            type="text"
+            name="lnamebox"
+            placeholder="Enter Your last Name"
+          />
+        </p>
+        <p class="email">
+          Email <br />
+          <input
+            class="emailbox"
+            type="email"
+            name="emailbox"
+            placeholder="Enter Your Email"
+          />
+        </p>
+        <p class="contact">
+          Contact No. <br />
+          <input
+            class="contbox"
+            type="number"
+            name="contbox"
+            placeholder="Enter Your Phone No."
+          />
+        </p>
+        <p class="gender">
+          Gender : &nbsp; <input type="radio" name="gender" id="rbtmale" /> Male
+          &nbsp; <input type="radio" name="gender" id="rbtfemale" /> Female
+          &nbsp; <input type="radio" name="gender" id="rbtoth" /> Other
+        </p>
+        <p class="city">
+          City : &nbsp;
+          <select type="text" name="city" id="city" value="">
+            <option>Ahemdabad</option>
+            <option>Anand</option>
+            <option>Bayad</option>
+            <option>Modasa</option>
+            <option>Surat</option>
+            <option">Nadiad</option>
+          </select>
+        </p>
+        <p class="date">
+          Registeration Date : &nbsp;
+          <input class="regdate" type="date" name="regdate" id="" />
+        </p>
+        <p class="file">
+          Upload File : &nbsp;
+          <input class="regfile" type="file" name="regfile" id="regfile" />
+        </p>
+
+        <p class="submit">
+          <input class="sbtbtn" type="submit" value="Submit" /> &nbsp; &nbsp;
+          <input class="rstbtn" type="reset" value="Reset" />
+        </p>
+      </form>
+    </div>
+    <script src="reg.js" type="text/javascript"></script>
+  </body>
+</html>
